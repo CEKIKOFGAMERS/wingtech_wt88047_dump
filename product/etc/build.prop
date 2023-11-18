@@ -1,0 +1,95 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Xiaomi
+ro.product.product.device=stone
+ro.product.product.manufacturer=Xiaomi
+ro.product.product.model=holi
+ro.product.product.name=aosp_stone
+ro.product.model_for_attestation=
+ro.product.brand_for_attestation=
+ro.product.name_for_attestation=
+ro.product.build.date=Fri Nov 10 12:35:07 UTC 2023
+ro.product.build.date.utc=1699619707
+ro.product.build.fingerprint=POCO/moonstone_p_global/moonstone:13/TKQ1.221114.001/V14.0.5.0.TMPMIXM:user/release-keys
+ro.product.build.id=UP1A.231105.003
+ro.product.build.tags=release-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=1699620267
+ro.product.build.version.release=14
+ro.product.build.version.release_or_codename=14
+ro.product.build.version.sdk=34
+####################################
+# from device/xiaomi/sm6375-common/properties/product.prop
+####################################
+# Audio
+audio.offload.min.duration.secs=30
+audio.sys.mute.latency.factor=2
+audio.sys.noisy.broadcast.delay=500
+audio.sys.offload.pstimeout.secs=3
+audio.sys.routing.latency=0
+# Radio
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.vdp_on_ims_cap=1
+persist.vendor.qti.telephony.vt_cam_interface=2
+# Transcoding related property.
+debug.media.transcoding.codec_max_operating_rate_720P=240
+debug.media.transcoding.codec_max_operating_rate_1080P=120
+#Display
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
+# Google Photos
+debug.photos.eraser_camo=1
+debug.photos.eraser_suggestion=1
+debug.photos.force_pixel_eol=1
+debug.photos.p_editr.eraser=1
+# Memory management
+persist.sys.fw.bg_apps_limit=48
+persist.sys.fw.use_trim_settings=true
+persist.sys.fw.empty_app_percent=50
+persist.sys.fw.trim_empty_percent=100
+persist.sys.fw.trim_cache_percent=100
+persist.sys.fw.trim_enable_memory=2147483648
+persist.sys.fw.bservice_age=120000
+persist.sys.fw.bservice_limit=6
+persist.sys.fw.bservice_enable=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=34
+ro.build.characteristics=default
+ro.product.ab_ota_partitions=boot,dtbo,odm,product,system,system_ext,vbmeta,vbmeta_system,vendor,vendor_boot
+ro.product.cpu.pagesize.max=4096
+ro.dalvik.vm.enable_uffd_gc=false
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.notification_sound=Popcorn.ogg
+ro.config.alarm_alert=Bright_morning.ogg
+ro.config.ringtone=The_big_adventure.ogg
+ro.com.google.ime.bs_theme=true
+ro.com.google.ime.theme_id=5
+ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
+ro.opa.eligible_device=true
+ro.setupwizard.enterprise_mode=1
+ro.setupwizard.esim_cid_ignore=00000001
+setupwizard.feature.baseline_setupwizard_enabled=true
+setupwizard.feature.day_night_mode_enabled=true
+setupwizard.feature.portal_notification=true
+setupwizard.feature.enable_quick_start_flow=true
+setupwizard.feature.enable_wifi_tracker
+setupwizard.feature.lifecycle_refactoring=true
+setupwizard.feature.notification_refactoring=true
+setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false
+setupwizard.feature.show_pixel_tos=true
+setupwizard.feature.show_support_link_in_deferred_setup=false
+setupwizard.feature.skip_button_use_mobile_data.carrier1839=true
+setupwizard.theme=glif_v4_light
+ro.com.google.ime.kb_pad_port_l=4
+ro.com.google.ime.kb_pad_port_r=4
+ro.com.google.ime.kb_pad_land_l=64
+ro.com.google.ime.kb_pad_land_r=64
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
+ro.support_one_handed_mode=true
+# end of file
