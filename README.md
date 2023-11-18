@@ -1,0 +1,14 @@
+# moonstone-user 13 TKQ1.221114.001 V14.0.5.0.TMPMIXM release-keys
+- manufacturer: xiaomi
+- platform: holi
+- codename: stone
+- flavor: aosp_stone-userdebug
+- release: 14
+- id: UP1A.231105.003
+- incremental: 1699620267
+- tags: release-keys
+- fingerprint: POCO/moonstone_p_global/moonstone:13/TKQ1.221114.001/V14.0.5.0.TMPMIXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: moonstone-user-13-TKQ1.221114.001-V14.0.5.0.TMPMIXM-release-keys
+- repo: xiaomi_stone_dump
